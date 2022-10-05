@@ -1,0 +1,144 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9aa6cf;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.card{
+    background-color: white;
+    border-radius:  10px;
+    padding: 70px 50px 50px 50px;
+    max-width: 693px;
+
+}
+.titulo{
+    margin-bottom: 50px;
+}
+
+ .titulo h1{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #000000;
+margin-left: 160px;
+margin-bottom: 50px;
+display: flex;
+text-align: center;
+justify-content: center;
+max-width:  256px; 
+
+}
+.subtext{
+    max-width: 405px;
+    color :#000000;
+    margin-bottom: 40px;
+}
+.subtext h1{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+margin-bottom: 10px;
+}
+.subtext span{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+}
+.explicacao{
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+max-width: 553px;
+margin-left: 15px;
+margin-bottom: 30px;
+}
+.explicacao span{
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+}
+
+.Credito, .exp,.data{
+display: flex;
+flex-direction: column;
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+}
+.Credito input{
+all: unset;
+background: #FFFFFF;
+border: 1px solid #CED5EC;
+box-sizing: border-box;
+border-radius: 5px;;
+    padding: 25px 380px 25px 25px;
+    margin-bottom: 50px;
+}
+
+.datacode{
+    display: flex;
+}
+.datacode input{
+    all:unset;
+    background: #FFFFFF;
+border: 1px solid #CED5EC;
+box-sizing: border-box;
+border-radius: 5px;
+    width: 288px;
+    padding: 25px 0px 25px 25px;
+    margin-bottom: 50px;
+}
+.exp{
+    margin-left: 15px;
+}
+button {
+    all: unset;
+    font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+max-width: 592px;
+background: #5F82FF;
+border-radius: 5px;
+padding: 25px 230px;
+margin-left: 25px;
+}
+button:hover{
+    background: #093DF3;
+box-shadow: 0px 7px 24px rgba(9, 61, 243, 0.3);
+border-radius: 5px;
+}
+input:active{
+    background: #FFFFFF;
+    border: 1px solid #5F82FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+

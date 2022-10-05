@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+padding: 60px 90px;
+background: #FFFFFF;
+box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+border-radius: 15px;
+max-width: 610px;
+}
+.img-btn{
+    margin-left: 14px;
+}
+.card h1{
+    font-family: 'Rokkitt', serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 41px;
+color: #161843;
+margin-bottom: 15px;
+}
+.card p{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161843;
+    max-width: 339px;
+    margin-bottom: 52px;
+}
+input{
+    max-width: 430px;
+    padding: 25px 200px 25px 25px;
+    border: 1px solid #CAD6E4;
+box-sizing: border-box;
+border-radius: 5px;
+}
+input::placeholder{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #717A91;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.forgot a{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #0C6787;
+margin-top: 43px;
+text-decoration: none;
+}
+button{
+    max-width: 157px;
+    padding: 20px 15px 20px 35px;
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+background: #046586;
+border-radius: 5px;
+display: flex;
+align-items: center;
+margin-top: 16px;
+height: 73px;
+
+}
+span{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #838A9E;
+padding-left: 160px;
+margin-bottom: 30px;
+}
+.vetor{
+    border: 1px solid #CAD6E4;
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+.botoes{
+display: flex;
+justify-content:space-between;
+}
+.img-midia{
+    margin-right: 12px;
+}
+.botoes button{
+max-width: 207px;
+color: #000000;
+background: #FFFFFF;
+border: 1px solid #CAD6E4;
+box-sizing: border-box;
+border-radius: 5px;
+padding: 10px 35px;
+margin-bottom: 60px;
+}
+.final{
+    display: inline;
+    
+}
+.final p2{
+    font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+margin-left: 80px;
+}
+.botoes button:hover{
+    background: #FFFFFF;
+border: 1px solid #26394F;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
