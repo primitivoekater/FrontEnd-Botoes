@@ -5,7 +5,7 @@
 <div>
 <div><p1> 
 
- 2 exercicios para o treinamento da criação de layouts. No primeiro exercicio, um anuncio consistindo em 3 card com posições e configurações diferentes.No segundo, um card de apresentação com camadas e uma fotografia com bordas arredondadas. </p1></div>
+ 4 exercicios para o treinamento da criação de  botões e inputs, onde usuarios podem entrar informações pessoais que serão futuramente armazenadas no  banco de dados. Esse exercicios é um teste de  estreutura, por isso os botoões ainda não são funcionais. </p1></div>
  
 ##                                                                      Tecnologias Utilizadas:
 linguagem :  <img align="center" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"><br><br>
